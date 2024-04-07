@@ -8,3 +8,5 @@ To pull down the docker image after change Dockerfile: docker-compose down
 To build the docker image: docker-compose build
 
 Database manager for python: psycopg2 (easy to install with Docker) 
+
+Template for app: docker-compose run --rm app sh -c "python manage.py startapp core"
